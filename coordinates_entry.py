@@ -28,6 +28,7 @@ with open("plain_order.csv","r+") as txtfile:
                                     dbase_x = {b["Dish"] : b["X"] for b in dbase_reader}
                                     dbase.seek(0)
                                     # seek to set cursor back to 0 to enabable reading of y cood
+                                    #otherwise will read empty lines
                                     dbase_y = {b["Dish"] : b["Y"] for b in dbase_reader}
                                     
                                     for row in reader:
@@ -38,43 +39,12 @@ with open("plain_order.csv","r+") as txtfile:
                                                             row["X"] = dbase_x.get(row["Dish"])
                                                             row["Y"] = dbase_y.get(row["Dish"])
                                                 writer.writerow(row)
-                                               
-                                                          
-                                           
-                        
-                      
-
-                                                
-                                    
+                             
 
                          
 
                         
-                                    
-                     
-                       # for row in reader:
-                                    
-                       #             dish = dbase_reader.get(row["Dish"])
-                        
-                        #            if dish:
-                         #                       print(dish)
-                                    
-                                  #  for items in dbase_reader:
-                                                
-                                                
-                                                
-                                                
-                                   #             print(row["Dish"])
-                                    #            #print(items["Dish"])
-                                     #           if row["Dish"] == items["Dish"]:
-                                      #                      row["X"] = items["X"]
-                                       #                     row["Y"] = items["Y"]
-                                        #                    reader.writerow(row) 
-                                             
-                                   
-                                                
 
-                                     
                                                             
                                                             
                                                             

@@ -1,5 +1,5 @@
-Dish,X,Y
-Butter chicken,20,30
-Lamb chop,50,70
-Mango Chicken,20,20
-Vegetables Samosa (two pcs),20,80
+Dish,X,Y,Tab_X,Tab_Y,Spice_X,Spice_Y
+Butter chicken,20,30,2,2,2,2
+Lamb chop,50,70,3,3,3,3
+Mango Chicken,20,20,4,4,4,4
+Vegetables Samosa (two pcs),20,80,5,5,5,5

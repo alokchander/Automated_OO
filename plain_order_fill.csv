@@ -1,8 +1,8 @@
-Id,Dish,Spice,Quantity,X,Y
-5,Vegetables Samosa (two pcs),NA,1,20,80
-6,Chicken Tikka (5pcs),NA,1,0,0
+Id,Dish,Spice,Quantity,X,Y,Tab_X,Tab_Y,Spice_X,Spice_Y
+5,Vegetables Samosa (two pcs),NA,1,20,80,0,0,0,0
+6,Chicken Tikka (5pcs),NA,1,0,0,0,0,0,0
 7,"Mango Chicken
-How spicy?: Mild Medium",Mild Medium,1,0,0
+How spicy?: Mild Medium",Mild Medium,1,0,0,0,0,0,0
 8,"Palak Paneer
-How spicy?: Medium Hot",Medium Hot,1,0,0
-9,Onion Kulcha,NA,2,0,0
+How spicy?: Medium Hot",Medium Hot,1,0,0,0,0,0,0
+9,Onion Kulcha,NA,2,0,0,0,0,0,0
